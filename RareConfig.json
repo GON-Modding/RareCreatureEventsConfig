@@ -28,21 +28,14 @@
             "ForceBlueprint": false,
             "Blueprint": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Element.PrimalItemResource_Element"
           },          
-		  {
-            "Amount": 1,
-            "MinQuality": 0,
-            "MaxQuality": 0,
-            "ForceBlueprint": false,
-            "Blueprint": "/MysteryCrates/Consumables/Primalitemconsumable_Primitive_Mystery_Crate_White.Primalitemconsumable_Primitive_Mystery_Crate_White"
-          },          
-		  {
+	  {
             "Amount": 1,
             "MinQuality": 20,
             "MaxQuality": 20,
             "ForceBlueprint": false,
             "Blueprint": "/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponOneShotRifle.PrimalItem_WeaponOneShotRifle"
           },          
-		  {
+	  {
             "Amount": 1,
             "MinQuality": 20,
             "MaxQuality": 20,
@@ -67,22 +60,15 @@
             "MaxQuality": 0,
             "ForceBlueprint": false,
             "Blueprint": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Element.PrimalItemResource_Element"
-          },
-          {
-            "Amount": 2,
-            "MinQuality": 0,
-            "MaxQuality": 0,
-            "ForceBlueprint": false,
-            "Blueprint": "/MysteryCrates/Consumables/Primalitemconsumable_Primitive_Mystery_Crate_Red.Primalitemconsumable_Primitive_Mystery_Crate_Red"
           },          
-		  {
+	  {
             "Amount": 1,
             "MinQuality": 0,
             "MaxQuality": 20,
             "ForceBlueprint": false,
             "Blueprint": "/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponOneShotRifle.PrimalItem_WeaponOneShotRifle"
           },          
-		  {
+	  {
             "Amount": 1,
             "MinQuality": 0,
             "MaxQuality": 20,
