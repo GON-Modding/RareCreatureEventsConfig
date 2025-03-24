@@ -1,0 +1,303 @@
+{
+	"ModName": "GONRareCreatures", //Mod Identifyer for HTTP sorting must not be changed
+		"GenerelConfig":{
+			"IngameSpawnNotifications": true, //Determins if a Spawn Event will be broadcasted to the server it happend on with (Message in the top of the screen)
+			"ChatSpawnNotifications": true, //Determins if a Spawn Event will be sent in the game chat
+			"WebhookSpawnNotifications": true, //Determins if a Spawn Event will be sent to the specefied Discord Webhook 
+			"UseSpawnNotificationSound":true, // Determins if a Spawn Event should Trigger a sound the entire server can hear
+			"ShowCreatureTypeInNotifications": true, //Determins if the Creature Type should be included in the notifications (if set to true and the Rare/Super Rare is a Ovis it would say OVIS in the Notification)
+			"ShowCoordsInNotifications": true, //Determins if the Coordinates of the creature spawned should be sent in the notifications
+			"ShowExcactCoordsInNotifications": true, //Determins if the Coordinates are Excact or not if sent in Notifications (if set to false the coords will vary +/- 5 on Lat and Lon so it will still be abit of a hunt to find it)
+			"UseRandomNames": true, //Determins if the Creatures that gets Spawned should have Randome Names (the names can be set in this config file in the "NameList" Section at the bottom)
+			"DiscordWebhookURL": "https://discordapp.com/api/webhooks/1340440541262905414/_-M3oEEgh851kr4TBLLUxu6RBFuz9klekFtEXuQbESFNlzfHyu6FSb5jiC3oc0TBHBKR" // The webhook the notification system sends spawn events to 
+		},
+		"RareSettings":{ //General Rare Settings
+			"RareAutoSpawn": true, //Determins if Rares should auto spawn 
+			"CanRaresBeTamed": true, //Determins if Rares can be tamed (note this will only block KO taming as i have no way of blocking other types of taming)
+			"RareSpawnInterval": 60, //Determins the auto spawn interval in MINUTES 
+			"RareMaxAmount": 10, //Determins the max amnout of Rares that can Exsist on a map at the same time 
+			"RareMinLevel": 200, //Determins the minimum level a Rare can be
+			"RareMaxLevel": 200 //Determins the maximum level a Rare can be
+		},
+      "RareRewards": { //Rewards for killing a Rare Creature
+        "Items": [
+          {
+            "Amount": 500, //The amount that will be given 
+            "MinQuality": 0, // Minimum Quality 
+            "MaxQuality": 0, // Maximum Quality
+            "ForceBlueprint": false, //Determins if it should be a Blueprint or not
+            "Blueprint": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Element.PrimalItemResource_Element" //The item that will be given 
+          },          
+		  {
+            "Amount": 1,
+            "MinQuality": 20,
+            "MaxQuality": 20,
+            "ForceBlueprint": false,
+            "Blueprint": "/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponOneShotRifle.PrimalItem_WeaponOneShotRifle"
+          },          
+		  {
+            "Amount": 1,
+            "MinQuality": 20,
+            "MaxQuality": 20,
+            "ForceBlueprint": true,
+            "Blueprint": "/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponMetalPick.PrimalItem_WeaponMetalPick"
+          }
+        ]
+      },
+		"SuperRareSettings":{ //General Super Rare Settings
+			"SuperRareMaxAmount": 1, //Determins the max amnout of Super Rares that can Exsist on a map at the same time 
+			"SuperRareMinLevel": 1, //Determins the minimum level a Super Rare can be
+			"SuperRareMaxLevel": 1531, //Determins the Maximum level a Super Rare can be
+			"SuperRareSpawnChance": 10, //Determins the percent chance that a Rare Spawn event will become a Super Rare Spawn Event
+			"SuperRareHealthMultiplier": 5, //Health Multiplier for Super Rares to make them be more of a threat to fight 
+			"SuperRareDamageMultiplier": 5 //Damage Multiplier for Super Rares to make them be more of a threat to fight 
+		},
+      "SuperRareRewards": { //Rewards for killing a Super Rare Creature
+        "Items": [
+          {
+            "Amount": 500,
+            "MinQuality": 0,
+            "MaxQuality": 0,
+            "ForceBlueprint": false,
+            "Blueprint": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Element.PrimalItemResource_Element"
+          },          
+		  {
+            "Amount": 1,
+            "MinQuality": 0,
+            "MaxQuality": 20,
+            "ForceBlueprint": false,
+            "Blueprint": "/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponOneShotRifle.PrimalItem_WeaponOneShotRifle"
+          },          
+		  {
+            "Amount": 1,
+            "MinQuality": 0,
+            "MaxQuality": 20,
+            "ForceBlueprint": true,
+            "Blueprint": "/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponMetalPick.PrimalItem_WeaponMetalPick"
+          }
+        ]
+      },
+		"Rarelist":{ //The mod will use this list to choose what creatures it can spawn as Rares. if you use a modded map that is not on this list you can check the Server log/console to see what map name to put use for the list
+			"The Island":[ //The mod will use this part of the list if the game is running The Island. so fill out the other sections depending on what map you use
+				"/Game/PrimalEarth/Dinos/Spino/Spino_Character_BP.Spino_Character_BP",
+				"/Game/PrimalEarth/Dinos/Rex/Rex_Character_BP.Rex_Character_BP",
+				"/Game/PrimalEarth/Dinos/Baryonyx/Baryonyx_Character_BP.Baryonyx_Character_BP",
+				"/Game/PrimalEarth/Dinos/Allosaurus/Allo_Character_BP.Allo_Character_BP",
+				"/Game/PrimalEarth/Dinos/Therizinosaurus/Therizino_Character_BP.Therizino_Character_BP",
+				"/Game/PrimalEarth/Dinos/Direwolf/Direwolf_Character_BP.Direwolf_Character_BP",
+				"/Game/PrimalEarth/Dinos/Direbear/Direbear_Character_BP.Direbear_Character_BP",
+				"/Game/PrimalEarth/Dinos/Kaprosuchus/Kaprosuchus_Character_BP.Kaprosuchus_Character_BP",
+				"/Game/PrimalEarth/Dinos/Thylacoleo/Thylacoleo_Character_BP.Thylacoleo_Character_BP",
+				"/Game/ASA/Dinos/Ceratosaurus/Dinos/Ceratosaurus_Character_BP_ASA.Ceratosaurus_Character_BP_ASA",
+				"/Game/PrimalEarth/Dinos/Yutyrannus/Yutyrannus_Character_BP.Yutyrannus_Character_BP",
+				"/Game/PrimalEarth/Dinos/Daeodon/Daeodon_Character_BP.Daeodon_Character_BP",
+				"/Game/ASA/Dinos/Deinosuchus/Deinosuchusasa_Character_BP.Deinosuchusasa_Character_BP",
+				"/Game/PrimalEarth/Dinos/Argentavis/Argent_Character_BP.Argent_Character_BP",
+				"/Game/PrimalEarth/Dinos/Carcharodontosaurus/Carcha_Character_BP.Carcha_Character_BP",
+				"/Game/PrimalEarth/Dinos/Sheep/Sheep_Character_BP.Sheep_Character_BP",
+				"/Game/PrimalEarth/Dinos/Dodo/Dodo_Character_BP.Dodo_Character_BP",
+				"/Game/PrimalEarth/Dinos/Sauropod/Sauropod_Character_BP.Sauropod_Character_BP"
+				],
+			"The Center":[
+				],
+			"Scorched Earth":[
+				],
+			"Ragnarok":[
+				],
+			"Aberration":[
+				],
+			"Extinction":[
+				],
+			"Valguero":[
+				],
+			"Genesis 1":[
+				],
+			"Crystal Isles":[
+				],
+			"Genesis 2":[
+				],
+			"Lost Island":[
+				],
+			"Fjordur":[
+				],
+			"Astraeos":[
+				]
+		},
+		"SuperRarelist":{ //The mod will use this list to choose what creatures it can spawn as Super Rares. if you use a modded map that is not on this list you can check the Server log/console to see what map name to put use for the list
+			"The Island":[ //The mod will use this part of the list if the game is running The Island. so fill out the other sections depending on what map you use
+				"/Game/PrimalEarth/Dinos/Spino/Spino_Character_BP.Spino_Character_BP",
+				"/Game/PrimalEarth/Dinos/Rex/Rex_Character_BP.Rex_Character_BP",
+				"/Game/PrimalEarth/Dinos/Baryonyx/Baryonyx_Character_BP.Baryonyx_Character_BP",
+				"/Game/PrimalEarth/Dinos/Allosaurus/Allo_Character_BP.Allo_Character_BP",
+				"/Game/PrimalEarth/Dinos/Therizinosaurus/Therizino_Character_BP.Therizino_Character_BP",
+				"/Game/PrimalEarth/Dinos/Direwolf/Direwolf_Character_BP.Direwolf_Character_BP",
+				"/Game/PrimalEarth/Dinos/Direbear/Direbear_Character_BP.Direbear_Character_BP",
+				"/Game/PrimalEarth/Dinos/Kaprosuchus/Kaprosuchus_Character_BP.Kaprosuchus_Character_BP",
+				"/Game/PrimalEarth/Dinos/Thylacoleo/Thylacoleo_Character_BP.Thylacoleo_Character_BP",
+				"/Game/ASA/Dinos/Ceratosaurus/Dinos/Ceratosaurus_Character_BP_ASA.Ceratosaurus_Character_BP_ASA",
+				"/Game/PrimalEarth/Dinos/Yutyrannus/Yutyrannus_Character_BP.Yutyrannus_Character_BP",
+				"/Game/PrimalEarth/Dinos/Daeodon/Daeodon_Character_BP.Daeodon_Character_BP",
+				"/Game/ASA/Dinos/Deinosuchus/Deinosuchusasa_Character_BP.Deinosuchusasa_Character_BP",
+				"/Game/PrimalEarth/Dinos/Argentavis/Argent_Character_BP.Argent_Character_BP",
+				"/Game/PrimalEarth/Dinos/Carcharodontosaurus/Carcha_Character_BP.Carcha_Character_BP",
+				"/Game/PrimalEarth/Dinos/Sheep/Sheep_Character_BP.Sheep_Character_BP",
+				"/Game/PrimalEarth/Dinos/Dodo/Dodo_Character_BP.Dodo_Character_BP"
+				],
+			"The Center":[
+				],
+			"Scorched Earth":[
+				],
+			"Ragnarok":[
+				],
+			"Aberration":[
+				],
+			"Extinction":[
+				],
+			"Valguero":[
+				],
+			"Genesis 1":[
+				],
+			"Crystal Isles":[
+				],
+			"Genesis 2":[
+				],
+			"Lost Island":[
+				],
+			"Fjordur":[
+				],
+			"Astraeos":[
+				]
+		},
+		"LootItems": { // this part is not used yet and is for future features of the mod
+			"Resources":[
+			],
+			"Tools":[
+
+			],
+			"Armor":[
+			],
+			"Saddles":[
+
+			],
+			"Consumables":[
+			],
+			"Weapons And Attachments":[
+			],
+			"Ammunition":[
+			],
+			"Chibis":[
+			],
+			"Artifacts":[
+			],
+			"Mod/Other":[
+			]
+		},
+		"NameList":[ //A list of names the mod will use for the Creatures it spawns if "UseRandomNames" is set to "True"
+			"Edna Mode",
+			"Randle McMurphy",
+			"Optimus Prime",
+			"Norman Bates",
+			"Minion",
+			"Maximus",
+			"Legolas",
+			"Wednesday Addams",
+			"Inspector Clouseau",
+			"Inigo Montoya",
+			"Hal 9000",
+			"Groot",
+			"Gromit",
+			"Ethan Hunt",
+			"Corporal Hicks",
+			"Bane",
+			"Woody",
+			"Withnail",
+			"Roy Batty",
+			"Martin Blank",
+			"Glitch",
+			"The God Of Noise",
+			"Samwise Gamgee",
+			"Private William Hudson",
+			"Lisbeth Salander",
+			"Frank Drebin",
+			"Donnie Darko",
+			"Captain Kirk",
+			"Star Lord",
+			"Tony Montana",
+			"Marge Gunderson",
+			"Neo",
+			"Harry Potter",
+			"Gollum",
+			"Hans Landa",
+			"George Bailey",
+			"Wolverine",
+			"Bilbo Baggins",
+			"Dr. King Schultz",
+			"Ace Ventura",
+			"Sarah Connor",
+			"Katniss Everdeen",
+			"Jack Burton",
+			"Axel Foley",
+			"Amélie Poulain",
+			"Vito Corleone",
+			"Shaun Riley",
+			"Obi-Wan Kenobi",
+			"Luke Skywalker",
+			"Harry Callahan",
+			"Lester Burnham",
+			"Rick Deckard",
+			"Captain America",
+			"Tommy DeVito",
+			"Anton Chigurh",
+			"Amy Dunne",
+			"Lou Bloom",
+			"Keyser Söze",
+			"Ferris Bueller",
+			"Driver",
+			"Yoda",
+			"Walter Sobchak",
+			"Rocky Balboa",
+			"Atticus Finch",
+			"Captain Mal Reynolds",
+			"Dino With No Name",
+			"Jules Winnfield",
+			"Peter Venkman",
+			"Gandalf",
+			"Snake Plissken",
+			"Terminator",
+			"Forrest Gump",
+			"Patrick Bateman",
+			"Ash",
+			"Daniel Plainview",
+			"Travis Bickle",
+			"Hannibal Lecter",
+			"Doc Brown",
+			"Loki",
+			"Rick Blaine",
+			"M. Gustave",
+			"Ron Burgundy",
+			"Aragorn",
+			"Captain Jack Sparrow",
+			"Iron Man",
+			"Marty McFly",
+			"Michael Corleone",
+			"The Dude",
+			"Darth Vader",
+			"Tyler Durden",
+			"John McClane",
+			"The Joker",
+			"Ellen Ripley",
+			"Batman",
+			"Han Solo",
+			"James Bond",
+			"Indiana Jones",
+			"Walter White",
+			"Jesse Pinkman",
+			"Gustavo Fring",
+			"Saul Goodman",
+			"Rick",
+			"Morty",
+			"Invader Zim",
+			"GIR",
+			"Mike Wazowski"
+			]
+}
