@@ -22,7 +22,7 @@
       "RareRewards": {
         "Items": [
           {
-            "Amount": 500,
+            "Amount": 50,
             "MinQuality": 0,
             "MaxQuality": 0,
             "ForceBlueprint": false,
@@ -30,15 +30,15 @@
           },          
 	  {
             "Amount": 1,
-            "MinQuality": 20,
-            "MaxQuality": 20,
+            "MinQuality": 8,
+            "MaxQuality": 11,
             "ForceBlueprint": false,
             "Blueprint": "/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponOneShotRifle.PrimalItem_WeaponOneShotRifle"
           },          
 	  {
             "Amount": 1,
-            "MinQuality": 20,
-            "MaxQuality": 20,
+            "MinQuality": 8,
+            "MaxQuality": 11,
             "ForceBlueprint": true,
             "Blueprint": "/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponMetalPick.PrimalItem_WeaponMetalPick"
           }
@@ -46,7 +46,7 @@
       },
 		"SuperRareSettings":{
 			"SuperRareMaxAmount": 1,
-			"SuperRareMinLevel": 1,
+			"SuperRareMinLevel": 1531,
 			"SuperRareMaxLevel": 1531,
 			"SuperRareSpawnChance": 10,
 			"SuperRareHealthMultiplier": 5,
@@ -63,14 +63,14 @@
           },          
 	  {
             "Amount": 1,
-            "MinQuality": 0,
+            "MinQuality": 11,
             "MaxQuality": 20,
             "ForceBlueprint": false,
             "Blueprint": "/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponOneShotRifle.PrimalItem_WeaponOneShotRifle"
           },          
 	  {
             "Amount": 1,
-            "MinQuality": 0,
+            "MinQuality": 11,
             "MaxQuality": 20,
             "ForceBlueprint": true,
             "Blueprint": "/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponMetalPick.PrimalItem_WeaponMetalPick"
