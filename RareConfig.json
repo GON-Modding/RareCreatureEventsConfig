@@ -14,7 +14,7 @@
 		"RareSettings":{
 			"RareAutoSpawn": true,
 			"CanRaresBeTamed": true,
-			"RareSpawnInterval": 60,
+			"RareSpawnInterval": 1,
 			"RareMaxAmount": 10,
 			"RareMinLevel": 200,
 			"RareMaxLevel": 200
