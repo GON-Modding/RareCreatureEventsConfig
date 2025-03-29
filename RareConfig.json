@@ -7,7 +7,7 @@
 			"UseSpawnNotificationSound":true,
 			"ShowCreatureTypeInNotifications": true,
 			"ShowCoordsInNotifications": true,
-			"ShowExcactCoordsInNotifications": true,
+			"ShowExcactCoordsInNotifications": false,
 			"UseRandomNames": true,
 			"DiscordWebhookURL": "https://discordapp.com/api/webhooks/1340440541262905414/_-M3oEEgh851kr4TBLLUxu6RBFuz9klekFtEXuQbESFNlzfHyu6FSb5jiC3oc0TBHBKR"
 		},
@@ -15,7 +15,7 @@
 			"RareAutoSpawn": true,
 			"CanRaresBeTamed": true,
 			"CanRaresBePickedUp":true,
-			"RareSpawnInterval": 60,
+			"RareSpawnInterval": 5,
 			"RareMaxAmount": 10,
 			"RareMinLevel": 200,
 			"RareMaxLevel": 200
