@@ -162,6 +162,24 @@
 				"/Game/PrimalEarth/Dinos/Iguanodon/Iguanodon_Character_BP_Aberrant.Iguanodon_Character_BP_Aberrant"
 				],
 			"Extinction":[
+				"/Game/Extinction/Dinos/Enforcer/Enforcer_Character_BP.Enforcer_Character_BP",
+				"/Game/Extinction/Dinos/GasBag/GasBags_Character_BP.GasBags_Character_BP",
+				"/Game/Extinction/Dinos/IceJumper/IceJumper_Character_BP.IceJumper_Character_BP",
+				"/Game/Extinction/Dinos/Owl/Owl_Character_BP.Owl_Character_BP",
+				"/Game/Extinction/Dinos/Spindles/Spindles_Character_BP.Spindles_Character_BP",
+				"/Game/Packs/Wasteland/Dinos/Doggo/Doggo_Character_BP.Doggo_Character_BP",
+				"/Game/ASA/Dinos/Dreadnoughtus/Dreadnoughtus_Character_BP.Dreadnoughtus_Character_BP",
+				"/Game/PrimalEarth/Dinos/Toad/Toad_Character_BP.Toad_Character_BP",
+				"/Game/PrimalEarth/Dinos/Baryonyx/Baryonyx_Character_BP.Baryonyx_Character_BP",
+				"/Game/PrimalEarth/Dinos/Daeodon/Daeodon_Character_BP.Daeodon_Character_BP",
+				"/Game/PrimalEarth/Dinos/Thylacoleo/Thylacoleo_Character_BP.Thylacoleo_Character_BP",
+				"/Game/PrimalEarth/Dinos/Carno/Carno_Character_BP.Carno_Character_BP",
+				"/Game/PrimalEarth/Dinos/Argentavis/Argent_Character_BP.Argent_Character_BP",
+				"/Game/PrimalEarth/Dinos/Allosaurus/Allo_Character_BP.Allo_Character_BP",
+				"/Game/PrimalEarth/Dinos/Direbear/Direbear_Character_BP.Direbear_Character_BP",
+				"/Game/ASA/Dinos/Deinosuchus/Deinosuchusasa_Character_BP.Deinosuchusasa_Character_BP",
+				"/Game/ASA/Dinos/Ceratosaurus/Dinos/Ceratosaurus_Character_BP_ASA.Ceratosaurus_Character_BP_ASA",
+				"/Game/PrimalEarth/Dinos/Megatherium/Megatherium_Character_BP.Megatherium_Character_BP"
 				],
 			"Valguero":[
 				],
@@ -175,7 +193,7 @@
 				],
 			"Fjordur":[
 				],
-			"Astraeos":[
+			"Astraeos_WP":[
 				]
 		},
 		"SuperRarelist":{
@@ -261,6 +279,24 @@
 				"/Game/PrimalEarth/Dinos/Iguanodon/Iguanodon_Character_BP_Aberrant.Iguanodon_Character_BP_Aberrant"
 				],
 			"Extinction":[
+				"/Game/Extinction/Dinos/Enforcer/Enforcer_Character_BP.Enforcer_Character_BP",
+				"/Game/Extinction/Dinos/GasBag/GasBags_Character_BP.GasBags_Character_BP",
+				"/Game/Extinction/Dinos/IceJumper/IceJumper_Character_BP.IceJumper_Character_BP",
+				"/Game/Extinction/Dinos/Owl/Owl_Character_BP.Owl_Character_BP",
+				"/Game/Extinction/Dinos/Spindles/Spindles_Character_BP.Spindles_Character_BP",
+				"/Game/Packs/Wasteland/Dinos/Doggo/Doggo_Character_BP.Doggo_Character_BP",
+				"/Game/ASA/Dinos/Dreadnoughtus/Dreadnoughtus_Character_BP.Dreadnoughtus_Character_BP",
+				"/Game/PrimalEarth/Dinos/Toad/Toad_Character_BP.Toad_Character_BP",
+				"/Game/PrimalEarth/Dinos/Baryonyx/Baryonyx_Character_BP.Baryonyx_Character_BP",
+				"/Game/PrimalEarth/Dinos/Daeodon/Daeodon_Character_BP.Daeodon_Character_BP",
+				"/Game/PrimalEarth/Dinos/Thylacoleo/Thylacoleo_Character_BP.Thylacoleo_Character_BP",
+				"/Game/PrimalEarth/Dinos/Carno/Carno_Character_BP.Carno_Character_BP",
+				"/Game/PrimalEarth/Dinos/Argentavis/Argent_Character_BP.Argent_Character_BP",
+				"/Game/PrimalEarth/Dinos/Allosaurus/Allo_Character_BP.Allo_Character_BP",
+				"/Game/PrimalEarth/Dinos/Direbear/Direbear_Character_BP.Direbear_Character_BP",
+				"/Game/ASA/Dinos/Deinosuchus/Deinosuchusasa_Character_BP.Deinosuchusasa_Character_BP",
+				"/Game/ASA/Dinos/Ceratosaurus/Dinos/Ceratosaurus_Character_BP_ASA.Ceratosaurus_Character_BP_ASA",
+				"/Game/PrimalEarth/Dinos/Megatherium/Megatherium_Character_BP.Megatherium_Character_BP"
 				],
 			"Valguero":[
 				],
@@ -274,7 +310,7 @@
 				],
 			"Fjordur":[
 				],
-			"Astraeos":[
+			"Astraeos_WP":[
 				]
 		},
 		"LootItems": {
