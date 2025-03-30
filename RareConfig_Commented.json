@@ -47,7 +47,7 @@
       },
 		"SuperRareSettings":{ //General Super Rare Settings
 			"SuperRareMaxAmount": 1, //Determins the max amnout of Super Rares that can Exsist on a map at the same time 
-			"SuperRareMinLevel": 1, //Determins the minimum level a Super Rare can be
+			"SuperRareMinLevel": 1531, //Determins the minimum level a Super Rare can be
 			"SuperRareMaxLevel": 1531, //Determins the Maximum level a Super Rare can be
 			"SuperRareSpawnChance": 10, //Determins the percent chance that a Rare Spawn event will become a Super Rare Spawn Event
 			"SuperRareHealthMultiplier": 5, //Health Multiplier for Super Rares to make them be more of a threat to fight 
