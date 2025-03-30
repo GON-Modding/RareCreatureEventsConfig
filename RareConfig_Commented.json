@@ -121,7 +121,7 @@
 				],
 			"Fjordur":[
 				],
-			"Astraeos":[
+			"Astraeos_WP":[
 				]
 		},
 		"SuperRarelist":{ //The mod will use this list to choose what creatures it can spawn as Super Rares. if you use a modded map that is not on this list you can check the Server log/console to see what map name to put use for the list
@@ -166,7 +166,7 @@
 				],
 			"Fjordur":[
 				],
-			"Astraeos":[
+			"Astraeos_WP":[
 				]
 		},
 		"LootItems": { // this part is not used yet and is for future features of the mod
