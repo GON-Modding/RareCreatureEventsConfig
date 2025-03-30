@@ -14,6 +14,7 @@
 		"RareSettings":{ //General Rare Settings
 			"RareAutoSpawn": true, //Determins if Rares should auto spawn 
 			"CanRaresBeTamed": true, //Determins if Rares can be tamed (note this will only block KO taming as i have no way of blocking other types of taming)
+			"CanRaresBePickedUp":true, //Determins if Rares can be picked up or not (Note this will not make it so creatures can be picked up by anything they are not normaly able to be picked up by it just disables the carriability of the creature if set to false)
 			"RareSpawnInterval": 60, //Determins the auto spawn interval in MINUTES 
 			"RareMaxAmount": 10, //Determins the max amnout of Rares that can Exsist on a map at the same time 
 			"RareMinLevel": 200, //Determins the minimum level a Rare can be
